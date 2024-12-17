@@ -6,6 +6,7 @@ import Nav from './components/nav'
 import Hero from './components/Hero'
 import About from './components/about'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <About/>
       <Testimonials/>
+      <Footer/>
     </>
   )
 }
