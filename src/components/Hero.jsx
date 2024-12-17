@@ -1,24 +1,23 @@
-import './Hero.css' ;
+import './Hero.css';
 
-const Hero = () =>{
-return(
-    <>
-    <div className="hero-container" style={{width:"100vw"}}>
-        <div className="hero-content" style={{width:"40%"}}>
-            <div>
-            <h1 style={{fontSize:"3.2rem"}}>Let us find your</h1>
-            <h1 style={{color:"#be123c",fontSize:"3.2rem",lineHeight:"15px"}}>Forever Food</h1>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam veniam voluptas dolorem nam ratione eveniet asperiores minima alias laudantium?</p>
-           <div className="hero-buttons">
-            <button>Search now</button>
-            <button>Know more</button>
-           </div>
+const Hero = () => {
+  return (
+    <div className="hero-container">
+      <div className="hero-content">
+        <div>
+          <h1 className="hero-heading">Let us find your</h1>
+          <h1 className="hero-heading hero-heading-special">Forever Food</h1>
         </div>
+        <p className="hero-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam veniam voluptas dolorem nam ratione eveniet asperiores minima alias laudantium?
+        </p>
+        <div className="hero-buttons">
+          <button id="search-now">Search now</button>
+          <button id="know-more">Know more</button>
+        </div>
+      </div>
     </div>
-    </>
-)
+  );
+};
 
-}
-
-export default Hero ;
+export default Hero;

@@ -1,0 +1,75 @@
+/* About.module.css */
+.aboutContainer {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 50px;
+    height: 100%;
+  }
+  
+  .image {
+    width: 95%;
+    height: 650px;
+    object-fit: cover;
+  }
+
+  .leftCont{
+    width: 55%;
+    height: 100%;
+    padding-top: 50px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .rightCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    /* z-index: -1;  */
+    height: 100%; 
+  }
+
+  .rightContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    
+    
+  }
+  
+  .rightCont h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .rightCont p {
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutButton{
+    width: 170px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: 1px solid #4f46e5;
+    background-color: #4f46e5;
+    color: #fff;
+  
+  }
+  
+  .aboutButton:hover{
+    background-color: rgba(255, 255, 255, 0.509);
+    color: #4f46e5;
+  }
