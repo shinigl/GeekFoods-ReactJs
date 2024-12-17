@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import About from './components/about'
+import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 
