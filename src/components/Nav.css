@@ -65,6 +65,15 @@
 }
 
 @media (max-width: 768px) {
+
+  .logo h2{
+    font-size: 20px;
+   }
+
+  #start-btn{
+    width: 100px;
+    height: 32px;
+  }
   .nav-list {
     display: none;
     width: 100%;
