@@ -1,0 +1,18 @@
+.nav-link{
+
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #3b82f6;
+}
+
+#start-btn{
+    background-color:  #2563eb;
+    transition: 0.3s ease;
+}
+#start-btn:hover{
+    background-color: #064ee9;
+}
