@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import QuotePage from './components/QuotePage'
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
       <Hero/>
       <About/>
       <Testimonials/>
+      {/* <QuotePage/> */}
+
       <Footer/>
     </>
   )
